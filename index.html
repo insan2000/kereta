@@ -1231,6 +1231,7 @@ function toggle22() {
 }
         // create the sidebar instance and add it to the map
         var sidebar = L.control.sidebar({ 
+            autopan: true,
             container: 'sidebar'
         }).addTo(map)
             .open('home');

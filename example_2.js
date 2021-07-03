@@ -41,14 +41,21 @@ $(function() {
         "opacity": 0.65
     };
 
-    var state = L.icon({
+    var smallIcon = L.icon({
         iconUrl: 'images/stasiun2.png',
-        iconSize: [15, 15],
+        iconSize: [18, 18],
         iconAnchor: [4, 13],
         popupAnchor: [3, -12]
     });
-    
 
+    /*for (i in stasiun.features) {
+        var title = stasiun.features[i].properties.namobj,  //value searched
+            info = stasiun.features[i].properties.namobj,
+            marker = new L.Marker(new L.latLng(stasiun.features[i].properties.lon, stasiun.features[i].properties.lat), { title: title, icon: smallIcon });//se property searched
+        marker.bindPopup(info);
+        markersLayer.addLayer(marker);
+    }
+    */
 
     function popUp(f,l){
         var out = [];
@@ -86,20 +93,6 @@ $(function() {
                 className: 'marker-'+feature.properties.amenity,
                 html: iconByName(feature.properties.amenity),
                 iconUrl: '../images/markers/'+feature.properties.amenity+'.png',
-                iconSize: [25, 41],
-                iconAnchor: [12, 41],
-                popupAnchor: [1, -34],
-                shadowSize: [41, 41]
-            })
-        });
-    }
-
-    function featureToMarkerStasiun(feature, latlng) {
-        return L.marker(latlng, {
-            icon: L.divIcon({
-                className: 'marker-'+feature.properties.namobj,
-                html: iconByName(feature.properties.namobj),
-                iconUrl: 'images/stasiun2.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -160,16 +153,16 @@ $(function() {
             name: "Rel Kereta Surabaya - Semarang",
             icon: iconByName('drinking_water'),
             layer: new L.GeoJSON.AJAX(["data/json_2.json"],{onEachFeature:popUp,style: myStyle2,pointToLayer: featureToMarker}).addTo(map)
-        },
+        }/*,
         {
             name: "Daftar Stasiun",
             icon: iconByName('fuel'),
             layer: new L.GeoJSON.AJAX(
                 ["data/stasiun_baru.json"],
-                {onEachFeature:popUpStasiun, icon : state})
+                {onEachFeature:popUpStasiun, icon : smallIcon})
                 // ,pointToLayer: featureToMarker
             .addTo(map)
-        }
+        }*/
     ];
 
     var panelLayers = new L.Control.PanelLayers(baseLayers, overLayers, {
@@ -253,14 +246,21 @@ $(function() {
     // Colors for AwesomeMarkers
     var _colorIdx = 0,
         _colors = [
+          'red',
+          'red',
           'green',
+          'green',
+          'blue',
           'red',
           'blue',
+          'darkpurple',
+          'blue',
+          'green',
           'darkpurple'
         ];
         
     function _assignColor() {
-        return _colors[_colorIdx++%10];
+        return _colors[_colorIdx++%11];
     }
     
     
