@@ -165,7 +165,7 @@ $(function() {
             name: "Daftar Stasiun",
             icon: iconByName('fuel'),
             layer: new L.GeoJSON.AJAX(
-                ["data/daftar_stasiun.json"],
+                ["data/stasiun_baru.json"],
                 {onEachFeature:popUpStasiun, icon : state})
                 // ,pointToLayer: featureToMarker
             .addTo(map)

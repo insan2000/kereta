@@ -1,0 +1,845 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.14682222907321,
+          -7.1502699033271675
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "objectid": 209,
+        "namobj": "Kradenan",
+        "kode": "KNN",
+        "lat": -7.15026990333,
+        "lon": 111.14682222907,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Kradenan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.50061035200002,
+          -7.196411133000026
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "objectid": 214,
+        "namobj": "Wadu",
+        "kode": "WDU",
+        "lat": -7.196411133,
+        "lon": 111.500610352,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Wadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.900390625,
+          -7.145263671999999
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "objectid": 213,
+        "namobj": "Ngrombo",
+        "kode": "NBO",
+        "lat": -7.145263672,
+        "lon": 110.900390625,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Ngrombo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.04382324200003,
+          -7.163696288999972
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "objectid": 307,
+        "namobj": "Sroyo",
+        "kode": "SYO",
+        "lat": -7.163696289,
+        "lon": 112.043823242,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Sroyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73120117200006,
+          -7.248168944999975
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "objectid": 295,
+        "namobj": "Surabaya Pasar Turi",
+        "kode": "SBI",
+        "lat": -7.248168945,
+        "lon": 112.731201172,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Surabaya Pasar Turi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43878173799999,
+          -6.955871581999986
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "objectid": 471,
+        "namobj": "Kemijen",
+        "kode": "KME",
+        "lat": -6.955871582,
+        "lon": 110.438781738,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Kemijen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.687011719,
+          -7.258972168000014
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "objectid": 296,
+        "namobj": "Tandes",
+        "kode": "TES",
+        "lat": -7.258972168,
+        "lon": 112.687011719,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Tandes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.428222656,
+          -6.964477538999972
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "objectid": 198,
+        "namobj": "Semarang Tawang",
+        "kode": "SMT",
+        "lat": -6.964477539,
+        "lon": 110.428222656,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Semarang Tawang"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.42022705099998,
+          -7.112487793000014
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "objectid": 297,
+        "namobj": "Lamongan",
+        "kode": "LMG",
+        "lat": -7.112487793,
+        "lon": 112.420227051,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Lamongan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.060791016,
+          -7.152587890999996
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "objectid": 208,
+        "namobj": "Panunggalan",
+        "kode": "PNL",
+        "lat": -7.152587891,
+        "lon": 111.060791016,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Panunggalan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.28802490200002,
+          -7.182800293000014
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "objectid": 211,
+        "namobj": "Doplang",
+        "kode": "DPL",
+        "lat": -7.182800293,
+        "lon": 111.288024902,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Doplang"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.16864013700001,
+          -7.106079102000024
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "objectid": 304,
+        "namobj": "Babat",
+        "kode": "BBT",
+        "lat": -7.106079102,
+        "lon": 112.168640137,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Babat"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.522216797,
+          -7.025573730000019
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "objectid": 200,
+        "namobj": "Brumbung",
+        "kode": "BBG",
+        "lat": -7.02557373,
+        "lon": 110.522216797,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Brumbung"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.65833739464917,
+          -7.251078578009785
+        ]
+      },
+      "properties": {
+        "FID": 13,
+        "objectid": 123,
+        "namobj": "Kandangan",
+        "kode": "KDA",
+        "lat": -7.25107857801,
+        "lon": 112.65833739465,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Kandangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.66961669900002,
+          -7.060974121000015
+        ]
+      },
+      "properties": {
+        "FID": 14,
+        "objectid": 206,
+        "namobj": "Gubug",
+        "kode": "GUB",
+        "lat": -7.060974121,
+        "lon": 110.669616699,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Gubug"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.915039062,
+          -7.143798828000001
+        ]
+      },
+      "properties": {
+        "FID": 15,
+        "objectid": 199,
+        "namobj": "Gambringan",
+        "kode": "GBN",
+        "lat": -7.143798828,
+        "lon": 110.915039062,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Gambringan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.22241210899995,
+          -7.102294921999999
+        ]
+      },
+      "properties": {
+        "FID": 16,
+        "objectid": 303,
+        "namobj": "Gembong",
+        "kode": "GEB",
+        "lat": -7.102294922,
+        "lon": 112.222412109,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Gembong"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.57098388700001,
+          -7.224365234000004
+        ]
+      },
+      "properties": {
+        "FID": 17,
+        "objectid": 124,
+        "namobj": "Cerme",
+        "kode": "CME",
+        "lat": -7.224365234,
+        "lon": 112.570983887,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Cerme"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.26983642599998,
+          -7.097473144999981
+        ]
+      },
+      "properties": {
+        "FID": 18,
+        "objectid": 301,
+        "namobj": "Pucuk",
+        "kode": "PC",
+        "lat": -7.097473145,
+        "lon": 112.269836426,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Pucuk"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.52062988299997,
+          -7.1546020509999835
+        ]
+      },
+      "properties": {
+        "FID": 19,
+        "objectid": 298,
+        "namobj": "Duduk",
+        "kode": "DD",
+        "lat": -7.154602051,
+        "lon": 112.520629883,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Duduk"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.615234375,
+          -7.2340698240000165
+        ]
+      },
+      "properties": {
+        "FID": 20,
+        "objectid": 291,
+        "namobj": "Benowo",
+        "kode": "BNW",
+        "lat": -7.234069824,
+        "lon": 112.615234375,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Benowo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.22283935500002,
+          -7.174072265999996
+        ]
+      },
+      "properties": {
+        "FID": 21,
+        "objectid": 210,
+        "namobj": "Sulur",
+        "kode": "SL",
+        "lat": -7.174072266,
+        "lon": 111.222839355,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Sulur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.55523681599999,
+          -7.188598633000026
+        ]
+      },
+      "properties": {
+        "FID": 22,
+        "objectid": 215,
+        "namobj": "Kapuan",
+        "kode": "KPA",
+        "lat": -7.188598633,
+        "lon": 111.555236816,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Kapuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.00158691399997,
+          -7.177673340000013
+        ]
+      },
+      "properties": {
+        "FID": 23,
+        "objectid": 306,
+        "namobj": "Sumberejo",
+        "kode": "SRJ",
+        "lat": -7.17767334,
+        "lon": 112.001586914,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Sumberejo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.59118652299998,
+          -7.154174805000025
+        ]
+      },
+      "properties": {
+        "FID": 24,
+        "objectid": 494,
+        "namobj": "Cepu",
+        "kode": "CU",
+        "lat": -7.154174805,
+        "lon": 111.591186523,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Cepu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.36981201200001,
+          -7.10296630900001
+        ]
+      },
+      "properties": {
+        "FID": 25,
+        "objectid": 300,
+        "namobj": "Kruwul",
+        "kode": "KWL",
+        "lat": -7.102966309,
+        "lon": 112.369812012,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Kruwul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.398193359,
+          -7.192199706999986
+        ]
+      },
+      "properties": {
+        "FID": 26,
+        "objectid": 212,
+        "namobj": "Randublatung",
+        "kode": "RBG",
+        "lat": -7.192199707,
+        "lon": 111.398193359,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Randublatung"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.93341064499998,
+          -7.199096680000025
+        ]
+      },
+      "properties": {
+        "FID": 27,
+        "objectid": 328,
+        "namobj": "Kapas",
+        "kode": "KPS",
+        "lat": -7.19909668,
+        "lon": 111.933410645,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Kapas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.414794922,
+          -6.972900390999996
+        ]
+      },
+      "properties": {
+        "FID": 28,
+        "objectid": 195,
+        "namobj": "Semarang Poncol",
+        "kode": "SMC",
+        "lat": -6.972900391,
+        "lon": 110.414794922,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Semarang Poncol"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.09979248000002,
+          -7.1311645509999835
+        ]
+      },
+      "properties": {
+        "FID": 29,
+        "objectid": 305,
+        "namobj": "Bowerno",
+        "kode": "BWO",
+        "lat": -7.131164551,
+        "lon": 112.09979248,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Bowerno"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.77923584000001,
+          -7.101379394999981
+        ]
+      },
+      "properties": {
+        "FID": 30,
+        "objectid": 204,
+        "namobj": "Karangjati",
+        "kode": "KGT",
+        "lat": -7.101379395,
+        "lon": 110.77923584,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Karangjati"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.48022460899995,
+          -7.1311645509999835
+        ]
+      },
+      "properties": {
+        "FID": 31,
+        "objectid": 299,
+        "namobj": "Pandanan",
+        "kode": "PDN",
+        "lat": -7.131164551,
+        "lon": 112.480224609,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Pandanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.60241699199997,
+          -7.052978515999996
+        ]
+      },
+      "properties": {
+        "FID": 32,
+        "objectid": 205,
+        "namobj": "Tegowanu",
+        "kode": "TGW",
+        "lat": -7.052978516,
+        "lon": 110.602416992,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Tegowanu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.475830078,
+          -6.984375
+        ]
+      },
+      "properties": {
+        "FID": 33,
+        "objectid": 197,
+        "namobj": "Alastua",
+        "kode": "ATA",
+        "lat": -6.984375,
+        "lon": 110.475830078,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Alastua"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.32202148399995,
+          -7.093566894999981
+        ]
+      },
+      "properties": {
+        "FID": 34,
+        "objectid": 302,
+        "namobj": "Sumlaran",
+        "kode": "SLR",
+        "lat": -7.093566895,
+        "lon": 112.322021484,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Sumlaran"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.848388672,
+          -7.140563965000013
+        ]
+      },
+      "properties": {
+        "FID": 35,
+        "objectid": 203,
+        "namobj": "Sedadi",
+        "kode": "SDI",
+        "lat": -7.140563965,
+        "lon": 110.848388672,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Sedadi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.01019287100002,
+          -7.150268555000025
+        ]
+      },
+      "properties": {
+        "FID": 36,
+        "objectid": 207,
+        "namobj": "Jambon",
+        "kode": "JBN",
+        "lat": -7.150268555,
+        "lon": 111.010192871,
+        "wil_op": 4,
+        "Stasiun": "Stasiun Jambon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.88684081999997,
+          -7.1643676759999835
+        ]
+      },
+      "properties": {
+        "FID": 37,
+        "objectid": 218,
+        "namobj": "Bojonegoro",
+        "kode": "BJ",
+        "lat": -7.164367676,
+        "lon": 111.88684082,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Bojonegoro"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.76739501999998,
+          -7.131713866999974
+        ]
+      },
+      "properties": {
+        "FID": 38,
+        "objectid": 217,
+        "namobj": "Kalitidu",
+        "kode": "KIT",
+        "lat": -7.131713867,
+        "lon": 111.76739502,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Kalitidu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.65521240200002,
+          -7.172363281000003
+        ]
+      },
+      "properties": {
+        "FID": 39,
+        "objectid": 216,
+        "namobj": "Tobo",
+        "kode": "TBO",
+        "lat": -7.172363281,
+        "lon": 111.655212402,
+        "wil_op": 8,
+        "Stasiun": "Stasiun Tobo"
+      }
+    }
+  ]
+}
