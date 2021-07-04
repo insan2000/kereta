@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="dist/leaflet-panel-layers-master/src/leaflet-panel-layers.css" />
     <link rel="stylesheet" href="dist/leaflet-sidebar-v2-master/css/leaflet-sidebar.css" />
     <link rel="stylesheet" href="dist/easy-button.css" />
+    <link rel="stylesheet" href="dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
+
+
 
     <style>
     #title_container {
@@ -119,7 +123,7 @@
     <script src="dist/easy-button.js"></script>
 
     <script src="data/kereta.js"></script>
-    <script src="data/stasiun_baru.json"></script>
+    <script src="data/stasiun.json"></script>
     
     <script src="example_2_control.js"></script>
     <script src="example_2.js"></script>
@@ -132,15 +136,15 @@
         <div class="leaflet-sidebar-tabs">
             <!-- top aligned tabs -->
             <ul role="tablist">
-                <li><a href="#legend" role="tab"><i class="fa fa-map-signs"></i></a></li>
-                <li><a href="#jadwal" role="tab"><i class="fa fa-train"></i></a></li>
+                <li><a href="#legend" role="tab"><i class="fa fa-map-signs" style="color: #1E90FF"></i></a></li>
+                <li><a href="#jadwal" role="tab"><i class="fa fa-train" style="color: #1E90FF"></i></a></li>
             </ul>
 
             <!-- bottom aligned tabs -->
             <ul role="tablist">
-                <li><a href="index.html"><i class="fa fa-home" style="font-size:20px"></i></a></li>
-                <li><a href="#peta.html"><i class="fa fa-map-o" style="font-size:20px"></i></a></li>
-                <li><a href="#index.html#tabs2-8"><i class="fa fa-pencil-square-o" style="font-size:20px"></i></a></li>
+                <li><a href="#index.html"><i class="fa fa-home" style="font-size:20px; color: #1E90FF"></i></a></li>
+                <li><a href="#peta.html"><i class="fa fa-map-o" style="font-size:20px; color: #1E90FF"></i></a></li>
+                <li><a href="#index.html#tabs2-8"><i class="fa fa-pencil-square-o" style="font-size:20px; color: #1E90FF"></i></a></li>
             </ul>
         </div>
 
@@ -1231,10 +1235,14 @@ function toggle22() {
 }
         // create the sidebar instance and add it to the map
         var sidebar = L.control.sidebar({ 
-            autopan: true,
             container: 'sidebar'
-        }).addTo(map)
-            .open('home');
+        }).addTo(map);
+
+        //Move Layers control to sidebar
+        var layerControlContainer = layerControl.getContainer();
+        $("#layercontrol").append(layerControlContainer);
+        $(".leaflet-control-layers-list").prepend("<strong class='title'>Base Maps</strong><br>");
+        $(".leaflet-control-layers-separator").after("<br><strong class='title'>Layers</strong><br>");
 
         // add panels dynamically to the sidebar
         sidebar

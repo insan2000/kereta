@@ -41,21 +41,24 @@ $(function() {
         "opacity": 0.65
     };
 
+    var markersLayer = new L.LayerGroup();
+    map.addLayer(markersLayer);
+
     var smallIcon = L.icon({
-        iconUrl: 'images/stasiun2.png',
-        iconSize: [18, 18],
+        iconUrl: 'images/stasiun.png',
+        iconSize: [15, 18],
         iconAnchor: [4, 13],
         popupAnchor: [3, -12]
     });
 
-    /*for (i in stasiun.features) {
-        var title = stasiun.features[i].properties.namobj,  //value searched
-            info = stasiun.features[i].properties.namobj,
-            marker = new L.Marker(new L.latLng(stasiun.features[i].properties.lon, stasiun.features[i].properties.lat), { title: title, icon: smallIcon });//se property searched
+    for (i in stasiun.features) {
+        var title = stasiun.features[i].properties.Stasiun,  //value searched
+            info = "<center>" + stasiun.features[i].properties.Stasiun + "<br>" + "Koordinat: " + stasiun.features[i].properties.lat + ", " + stasiun.features[i].properties.lon + "</center>",
+            marker = new L.Marker(new L.latLng(stasiun.features[i].properties.lat, stasiun.features[i].properties.lon), { title: title, icon: smallIcon });//se property searched
         marker.bindPopup(info);
         markersLayer.addLayer(marker);
     }
-    */
+    
 
     function popUp(f,l){
         var out = [];
@@ -158,7 +161,7 @@ $(function() {
             name: "Daftar Stasiun",
             icon: iconByName('fuel'),
             layer: new L.GeoJSON.AJAX(
-                ["data/stasiun_baru.json"],
+                ["data/stasiun.json"],
                 {onEachFeature:popUpStasiun, icon : smallIcon})
                 // ,pointToLayer: featureToMarker
             .addTo(map)
